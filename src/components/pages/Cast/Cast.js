@@ -21,7 +21,7 @@ export default function Cast({ movieId }) {
               <Card key={id}>
                 <Image
                   src={
-                    data.profile_path
+                    profile_path
                       ? `https://image.tmdb.org/t/p/w500${profile_path}`
                       : photoPlaceholder
                   }
